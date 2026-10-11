@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Нежно-зеленые оттенки */
+  --primary-green: #A8D5BA;
+  --light-green: #C8E6C9;
+  --soft-green: #E8F5E9;
+  
+  /* Сливочные оттенки */
+  --cream: #FFF8E7;
+  --light-cream: #FFFBF0;
+  --warm-cream: #FFF4D6;
+  
+  /* Текстовые цвета */
+  --text-white: #FFFFFF;
+  --text-dark: #2C3E2E;
+  --text-medium: #5A6C5B;
+  
+  /* Фоны */
+  --bg-main: linear-gradient(135deg, #FFF8E7 0%, #FFFBF0 50%, #E8F5E9 100%);
+  --bg-section: #FFFFFF;
+  --bg-card: #FFF8E7;
+}
+
+/* Темная тема */
+.dark-theme {
+  /* Темные оттенки */
+  --primary-green: #A8D5BA;
+  --light-green: #8BC4A0;
+  --soft-green: #2D4A3E;
+  
+  /* Темные фоны */
+  --cream: #1A2520;
+  --light-cream: #243530;
+  --warm-cream: #2D4A3E;
+  
+  /* Текстовые цвета для темной темы */
+  --text-white: #FFFFFF;
+  --text-dark: #E8F5E9;
+  --text-medium: #A8D5BA;
+  
+  /* Фоны */
+  --bg-main: linear-gradient(135deg, #0F1612 0%, #1A2520 50%, #243530 100%);
+  --bg-section: #1A2520;
+  --bg-card: #243530;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg-main);
+  color: var(--text-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--primary-green);
+  color: var(--text-white);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-green);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--light-green);
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 48px;
+}
+
+.loader {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}

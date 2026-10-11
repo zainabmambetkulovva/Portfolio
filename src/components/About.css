@@ -1,0 +1,213 @@
+.about-section {
+  padding: 100px 20px;
+  background: white;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-label {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--primary-green);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 50px;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.achievements-box {
+  background: var(--cream);
+  border-left: 4px solid var(--primary-green);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.achievements-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 25px;
+}
+
+.about-section .achievement-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about-section .achievement-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #4a5568;
+}
+
+.about-section .achievement-list li svg {
+  width: 20px;
+  height: 20px;
+  color: var(--primary-green);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.skills-category {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.skills-category-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-green);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  padding: 8px 18px;
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: #4a5568;
+  transition: all 0.2s;
+}
+
+.skill-tag:hover {
+  border-color: var(--primary-green);
+  background: #fff;
+  color: var(--primary-green);
+}
+
+.languages-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.languages-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-green);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.language-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.language-item:last-child {
+  border-bottom: none;
+}
+
+.language-name {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.language-level {
+  color: #718096;
+  font-size: 0.875rem;
+}
+
+.toefl-score {
+  background: linear-gradient(135deg, var(--cream) 0%, var(--warm-cream) 100%);
+  border: 2px solid var(--primary-green);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.toefl-number {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--primary-green);
+  line-height: 1;
+}
+
+.toefl-label {
+  font-size: 1rem;
+  color: #4a5568;
+  margin-top: 10px;
+}
+
+.toefl-details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.toefl-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.toefl-detail-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-green);
+}
+
+.toefl-detail-label {
+  font-size: 0.75rem;
+  color: #718096;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .toefl-details {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

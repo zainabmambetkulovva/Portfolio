@@ -1,0 +1,32 @@
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.education-card {
+  padding: 30px;
+  background: var(--soft-green);
+  border-radius: 20px;
+  border-left: 5px solid var(--primary-green);
+}
+
+.education-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 15px;
+}
+
+.education-description {
+  font-size: 15px;
+  color: var(--text-medium);
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+}

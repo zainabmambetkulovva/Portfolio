@@ -1,0 +1,69 @@
+.qualities-section {
+  padding: 100px 20px;
+  background: var(--text-white);
+}
+
+.qualities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quality-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 25px;
+  background: linear-gradient(135deg, var(--cream), var(--light-cream));
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(168, 213, 186, 0.15);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.quality-card:hover {
+  border-color: var(--primary-green);
+  box-shadow: 0 8px 25px rgba(168, 213, 186, 0.25);
+}
+
+.quality-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-green);
+  color: var(--text-white);
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.quality-card:hover .quality-icon {
+  transform: scale(1.1);
+  background: var(--light-green);
+}
+
+.quality-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.quality-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .qualities-grid {
+    grid-template-columns: 1fr;
+  }
+}

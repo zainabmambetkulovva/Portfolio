@@ -1,0 +1,33 @@
+.languages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.language-card {
+  padding: 30px;
+  background: var(--soft-green);
+  border-radius: 20px;
+  text-align: center;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.language-name {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--primary-green);
+  margin-bottom: 10px;
+}
+
+.language-level {
+  font-size: 15px;
+  color: var(--text-medium);
+}
+
+@media (max-width: 768px) {
+  .languages-grid {
+    grid-template-columns: 1fr;
+  }
+}

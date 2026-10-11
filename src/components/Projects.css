@@ -1,0 +1,85 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project-card {
+  padding: 30px;
+  background: var(--light-cream);
+  border-radius: 20px;
+  border-top: 5px solid var(--primary-green);
+  box-shadow: 0 4px 15px rgba(168, 213, 186, 0.1);
+  cursor: pointer;
+}
+
+.project-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--primary-green);
+  margin-bottom: 15px;
+}
+
+.project-description {
+  font-size: 15px;
+  color: var(--text-dark);
+  line-height: 1.7;
+}
+
+.project-tech {
+  margin-top: 15px;
+  color: var(--primary-green);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.project-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: var(--primary-green);
+  color: var(--text-white);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(168, 213, 186, 0.3);
+}
+
+.project-link-btn:hover {
+  background: var(--light-green);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(168, 213, 186, 0.4);
+}
+
+.project-link-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.project-in-progress {
+  padding: 10px 20px;
+  background: var(--soft-green);
+  color: var(--text-medium);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: center;
+  border: 2px dashed var(--primary-green);
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
