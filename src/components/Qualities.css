@@ -21,7 +21,7 @@
   padding: 30px 25px;
   background: linear-gradient(135deg, var(--cream), var(--light-cream));
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(230, 57, 70, 0.15);
+  box-shadow: 0 4px 15px rgba(220, 20, 60, 0.15);
   transition: all 0.3s ease;
   cursor: pointer;
   border: 2px solid transparent;
@@ -29,7 +29,7 @@
 
 .quality-card:hover {
   border-color: var(--primary-green);
-  box-shadow: 0 8px 25px rgba(230, 57, 70, 0.25);
+  box-shadow: 0 8px 25px rgba(220, 20, 60, 0.25);
 }
 
 .quality-icon {

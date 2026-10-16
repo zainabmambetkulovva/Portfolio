@@ -7,48 +7,48 @@
 }
 
 :root {
-  /* Красные и розовые оттенки */
-  --primary-green: #E63946;
-  --light-green: #FF6B7A;
-  --soft-green: #FFE5E8;
+  /* Красный и золотистый */
+  --primary-green: #DC143C;
+  --light-green: #FFD700;
+  --soft-green: #FFF8DC;
   
-  /* Светло-розовые оттенки */
-  --cream: #FFF0F3;
-  --light-cream: #FFF5F7;
-  --warm-cream: #FFE1E6;
+  /* Светлые оттенки */
+  --cream: #FFFAF0;
+  --light-cream: #FFFFFF;
+  --warm-cream: #FFF8E7;
   
   /* Текстовые цвета */
   --text-white: #FFFFFF;
-  --text-dark: #2C1B1F;
-  --text-medium: #6B4F55;
+  --text-dark: #2C1810;
+  --text-medium: #6B4423;
   
   /* Фоны */
-  --bg-main: linear-gradient(135deg, #FFF0F3 0%, #FFF5F7 50%, #FFE5E8 100%);
+  --bg-main: linear-gradient(135deg, #FFFAF0 0%, #FFFFFF 50%, #FFF8DC 100%);
   --bg-section: #FFFFFF;
-  --bg-card: #FFF0F3;
+  --bg-card: #FFFAF0;
 }
 
 /* Темная тема */
 .dark-theme {
-  /* Темные красно-розовые оттенки */
-  --primary-green: #E63946;
-  --light-green: #FF6B7A;
-  --soft-green: #3D1F23;
+  /* Темные красно-золотистые оттенки */
+  --primary-green: #DC143C;
+  --light-green: #FFD700;
+  --soft-green: #2C1810;
   
   /* Темные фоны */
-  --cream: #1A0F11;
-  --light-cream: #2C1B1F;
-  --warm-cream: #3D1F23;
+  --cream: #1A0F08;
+  --light-cream: #2C1810;
+  --warm-cream: #3D2415;
   
   /* Текстовые цвета для темной темы */
   --text-white: #FFFFFF;
-  --text-dark: #FFE5E8;
-  --text-medium: #FF6B7A;
+  --text-dark: #FFF8DC;
+  --text-medium: #FFD700;
   
   /* Фоны */
-  --bg-main: linear-gradient(135deg, #0F0608 0%, #1A0F11 50%, #2C1B1F 100%);
-  --bg-section: #1A0F11;
-  --bg-card: #2C1B1F;
+  --bg-main: linear-gradient(135deg, #0F0804 0%, #1A0F08 50%, #2C1810 100%);
+  --bg-section: #1A0F08;
+  --bg-card: #2C1810;
 }
 
 body {

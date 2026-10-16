@@ -5,9 +5,9 @@
 
 .contact-info {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -18,13 +18,13 @@
   padding: 18px 22px;
   background: var(--text-white);
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(230, 57, 70, 0.2);
+  box-shadow: 0 4px 15px rgba(220, 20, 60, 0.2);
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
 .contact-card:hover {
-  box-shadow: 0 8px 25px rgba(230, 57, 70, 0.3);
+  box-shadow: 0 8px 25px rgba(220, 20, 60, 0.3);
 }
 
 .contact-icon {
