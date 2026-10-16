@@ -7,6 +7,7 @@ const Achievements = () => {
   
   const achievements = [
     t.achievements.math,
+    t.achievements.biology,
     t.achievements.dance,
     t.achievements.study,
     t.achievements.it
