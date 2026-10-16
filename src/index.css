@@ -7,48 +7,48 @@
 }
 
 :root {
-  /* Нежно-зеленые оттенки */
-  --primary-green: #A8D5BA;
-  --light-green: #C8E6C9;
-  --soft-green: #E8F5E9;
+  /* Красные и розовые оттенки */
+  --primary-green: #E63946;
+  --light-green: #FF6B7A;
+  --soft-green: #FFE5E8;
   
-  /* Сливочные оттенки */
-  --cream: #FFF8E7;
-  --light-cream: #FFFBF0;
-  --warm-cream: #FFF4D6;
+  /* Светло-розовые оттенки */
+  --cream: #FFF0F3;
+  --light-cream: #FFF5F7;
+  --warm-cream: #FFE1E6;
   
   /* Текстовые цвета */
   --text-white: #FFFFFF;
-  --text-dark: #2C3E2E;
-  --text-medium: #5A6C5B;
+  --text-dark: #2C1B1F;
+  --text-medium: #6B4F55;
   
   /* Фоны */
-  --bg-main: linear-gradient(135deg, #FFF8E7 0%, #FFFBF0 50%, #E8F5E9 100%);
+  --bg-main: linear-gradient(135deg, #FFF0F3 0%, #FFF5F7 50%, #FFE5E8 100%);
   --bg-section: #FFFFFF;
-  --bg-card: #FFF8E7;
+  --bg-card: #FFF0F3;
 }
 
 /* Темная тема */
 .dark-theme {
-  /* Темные оттенки */
-  --primary-green: #A8D5BA;
-  --light-green: #8BC4A0;
-  --soft-green: #2D4A3E;
+  /* Темные красно-розовые оттенки */
+  --primary-green: #E63946;
+  --light-green: #FF6B7A;
+  --soft-green: #3D1F23;
   
   /* Темные фоны */
-  --cream: #1A2520;
-  --light-cream: #243530;
-  --warm-cream: #2D4A3E;
+  --cream: #1A0F11;
+  --light-cream: #2C1B1F;
+  --warm-cream: #3D1F23;
   
   /* Текстовые цвета для темной темы */
   --text-white: #FFFFFF;
-  --text-dark: #E8F5E9;
-  --text-medium: #A8D5BA;
+  --text-dark: #FFE5E8;
+  --text-medium: #FF6B7A;
   
   /* Фоны */
-  --bg-main: linear-gradient(135deg, #0F1612 0%, #1A2520 50%, #243530 100%);
-  --bg-section: #1A2520;
-  --bg-card: #243530;
+  --bg-main: linear-gradient(135deg, #0F0608 0%, #1A0F11 50%, #2C1B1F 100%);
+  --bg-section: #1A0F11;
+  --bg-card: #2C1B1F;
 }
 
 body {

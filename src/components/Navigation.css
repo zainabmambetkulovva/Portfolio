@@ -7,13 +7,13 @@
   backdrop-filter: blur(10px);
   z-index: 1000;
   padding: 20px 40px;
-  box-shadow: 0 2px 15px rgba(168, 213, 186, 0.1);
+  box-shadow: 0 2px 15px rgba(230, 57, 70, 0.1);
   transition: all 0.3s ease;
 }
 
 .navigation.scrolled {
   padding: 15px 40px;
-  box-shadow: 0 4px 20px rgba(168, 213, 186, 0.2);
+  box-shadow: 0 4px 20px rgba(230, 57, 70, 0.2);
 }
 
 .nav-container {
@@ -184,7 +184,7 @@
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
-    box-shadow: 0 10px 30px rgba(168, 213, 186, 0.2);
+    box-shadow: 0 10px 30px rgba(230, 57, 70, 0.2);
     z-index: 999;
   }
 
