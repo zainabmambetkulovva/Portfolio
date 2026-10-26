@@ -22,8 +22,7 @@ const Projects = () => {
       link: 'https://okurmen-seven.vercel.app/ky'
     },
     {
-      ...t.projects.project4,
-      link: null
+      ...t.projects.project4
     }
   ]
 

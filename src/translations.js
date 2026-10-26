@@ -65,7 +65,8 @@ export const translations = {
       project4: {
         title: 'RONIN — сайт компьютерного клуба',
         description: 'Самостоятельно работаю над созданием сайта компьютерного клуба RONIN в Бишкеке. Проект предусматривает онлайн-бронирование компьютеров, просмотр характеристик, выбор тарифов и управление бронированиями. Также разрабатывается функциональность для сотрудников.',
-        tech: 'TypeScript, Next.js, React, Prisma ORM, PostgreSQL, NextAuth.js, Tailwind CSS'
+        tech: 'TypeScript, Next.js, React, Prisma ORM, PostgreSQL, NextAuth.js, Tailwind CSS',
+        link: 'https://ronin-mjlm-m8umgrry7-prrojectt.vercel.app/'
       },
       viewProject: 'Смотреть проект',
       inProgress: 'В разработке',
@@ -212,7 +213,8 @@ export const translations = {
       project4: {
         title: 'RONIN — компьютердик клубдун сайты',
         description: 'Бишкектеги RONIN компьютердик клубунун сайтын өз алдынча иштеп чыгам. Долбоор компьютерлерди онлайн брондоону, мүнөздөмөлөрдү көрүүнү, тарифтерди тандоону жана брондоолорду башкарууну камтыйт. Кызматкерлер үчүн функционалдуулук да иштелип чыгууда.',
-        tech: 'TypeScript, Next.js, React, Prisma ORM, PostgreSQL, NextAuth.js, Tailwind CSS'
+        tech: 'TypeScript, Next.js, React, Prisma ORM, PostgreSQL, NextAuth.js, Tailwind CSS',
+        link: 'https://ronin-mjlm-m8umgrry7-prrojectt.vercel.app/'
       },
       viewProject: 'Долбоорду көрүү',
       inProgress: 'Иштелип чыгууда',
